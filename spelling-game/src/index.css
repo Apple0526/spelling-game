@@ -1,0 +1,22 @@
+.shake { 
+  animation: shake 0.5s; 
+}
+
+.scaleUp { 
+  animation: scaleUp 0.5s; 
+}
+
+@keyframes shake { 
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes scaleUp { 
+  0% { transform: scale(1); color: #4f46e5; }
+  50% { transform: scale(1.5); color: #22c55e; }
+  100% { transform: scale(1); color: #4f46e5; }
+}
